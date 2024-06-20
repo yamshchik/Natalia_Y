@@ -1,0 +1,149 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1400px;
+    height: 600px;
+    padding: 100px 129px;
+    box-sizing: border-box;
+    margin: auto;
+    padding-left: 129px;
+    padding-right: 129px;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    padding-right: 130px;
+    box-sizing: border-box;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 270px;
+    height: 365px;
+    flex-shrink: 0;
+}
+
+.inline-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.icon {
+    align-self: flex-start;
+}
+
+.section {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.section p {
+    margin-bottom: 25px;
+}
+
+.text-container .section:nth-child(1) {
+    margin-bottom: 80px;
+}
+
+.large-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 569px;
+    height: 276px;
+    flex-shrink: 0;
+    padding-left: 130px;
+    box-sizing: border-box;
+}
+
+.title {
+    color: #1E0E62;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    letter-spacing: 0.5px;
+}
+
+.description {
+    color: #15143966;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+
+.large-title {
+    color: #1E0E62;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+.large-description {
+    color: #15143966;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 569px;
+    margin-top: 20px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: var(--Action-Primary, #25DAC5);
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 45px;
+}
+
+img {
+    width: 30px;
+    height: auto;
+    margin-right: 15px;
+}
+
+img:last-child {
+    margin-right: 0;
+}

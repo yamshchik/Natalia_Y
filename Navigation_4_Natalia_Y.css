@@ -1,0 +1,59 @@
+.header {
+    color: #1E0E62;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1400px;
+    font-family: sans-serif;
+    margin: 0 auto;
+    padding: 40px 115px;
+    box-sizing: border-box;
+}
+
+.logo {
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center; 
+}
+
+.auth-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center; 
+}
+
+.nav-list li, .auth-list li {
+    margin: 0 15px;
+    display: flex; 
+    align-items: center;
+}
+
+.auth-list li button {
+    margin-left: 10px;
+    padding: 9px 21px; 
+    border: 2px solid #EBEAED; 
+    border-radius: 25px; 
+    background: none; 
+    font-family: inherit; 
+    font-size: inherit; 
+    display: flex; 
+    align-items: center;
+}
